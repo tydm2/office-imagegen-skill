@@ -21,7 +21,7 @@ metadata:
 
 1. **定后端与版式**：默认 `pollinations`（免费、免密钥）。看版式预设：
    `python scripts/imagegen.py layouts`
-2. **写提示词**：按 `references/prompt-library.md` 的办公提示词库润色，规避「图中乱字」与版权风险。
+2. **写提示词**：按 `references/prompt-library.md` 的办公提示词库润色（含 **style_id→绘图风格映射表**，可与 office-studio 风格库联动：文档定了风格后按映射取生图风格句，保证图文统一），规避「图中乱字」与版权风险。
 3. **生成 + 嵌入**：
 
 ```powershell
